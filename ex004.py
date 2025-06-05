@@ -1,0 +1,13 @@
+var = input('Digite alguma coisa:')
+print(type(var))
+print(f'Só tem espaços? {var.isspace()}')
+
+print(f'É um número? {var.isnumeric()}')
+print(f'É alfanumérico? {var.isalnum()}')
+print(f'É alfabético? {var.isalpha()}')
+print(f'É minúsculo? {var.islower()}')
+print(f'É maiúsculo? {var.isupper()}')
+print(f'É numérico? {var.isnumeric()}')
+print(f'É decimal? {var.isdecimal()}')
+print(f'Está capitalizada? {var.istitle()}')
+print(var.isascii())

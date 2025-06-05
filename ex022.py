@@ -4,4 +4,5 @@
 nome = str(input('Digite seu nome completo: '))
 print(f'Nome em maiúsculo: {nome.upper()}.')
 print(f'Nome em minúsculo: {nome.lower()}.')
-print(f'O nome completo tem: {}')
+print(f'O nome completo tem: {len(nome)-nome.count(' ')} letras.')
+print(f'O primeiro nome tem: {len(nome.split()[0])} letras.')
